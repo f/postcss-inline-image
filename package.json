@@ -1,6 +1,6 @@
 {
   "name": "postcss-inline-image",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin that puts images as data URIs into your CSS",
   "keywords": [
     "postcss",
