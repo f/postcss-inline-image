@@ -1,0 +1,34 @@
+{
+  "name": "postcss-inline-image",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that puts images as data URIs into your CSS",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "inline",
+    "image"
+  ],
+  "author": "f <fka@fatihak.in>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f/postcss-inline-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/f/postcss-inline-image/issues"
+  },
+  "homepage": "https://github.com/f/postcss-inline-image",
+  "dependencies": {
+    "postcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.2"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
