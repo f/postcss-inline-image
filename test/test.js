@@ -15,10 +15,9 @@ var test = function (input, output, opts, done) {
 
 describe('postcss-inline-image', function () {
 
-    /* Write tests here
-
-    it('does something', function (done) {
-        test('a{ }', 'a{ }', { }, done);
-    });*/
+    it('should bundle images as data URIs', function (done) {
+        test('.foo { background-inline-image: url(test/onepx.gif); }',
+             '.foo { background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==); }', {}, done);
+    });
 
 });
