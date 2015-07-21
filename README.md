@@ -8,13 +8,13 @@
 
 ```css
 .foo {
-    /* Input example */
+    background-inline-image: url(one_pixel_transparent.gif);
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 }
 ```
 
