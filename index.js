@@ -5,7 +5,7 @@ var fs = require('fs');
 module.exports = postcss.plugin('postcss-inline-image', function (opts) {
     opts = opts || {};
     return function (css) {
-        css.eachDecl('background-inline-image', function (decl) {
+        css.walkDecls('background-inline-image', function (decl) {
             var image = decl.value.match(/url\((.*?)\)/);
             if (image && image.length > 1) {
                 var url = image[1].trim();
